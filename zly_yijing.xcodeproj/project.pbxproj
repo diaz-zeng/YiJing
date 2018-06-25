@@ -355,10 +355,10 @@
 		8806263A20E09E6300DB6E48 /* OtherVC */ = {
 			isa = PBXGroup;
 			children = (
-				88B4841920E0F26A00AB1A9B /* QiuQianVC */,
 				8806263B20E09E6300DB6E48 /* CeZiVC */,
 				8806263F20E09E6300DB6E48 /* HuiYouVC */,
 				8806264320E09E6300DB6E48 /* JieMengVC */,
+				88B4841920E0F26A00AB1A9B /* QiuQianVC */,
 				8806264B20E09E6300DB6E48 /* YunShiVC */,
 				8806264F20E09E6300DB6E48 /* ZhanGuaVC */,
 			);
@@ -577,19 +577,19 @@
 		88E1AB6220E0754300A94ECC /* zly_yijing */ = {
 			isa = PBXGroup;
 			children = (
+				88E1AB6620E0754300A94ECC /* AppDelegate.h */,
+				88E1AB6720E0754300A94ECC /* AppDelegate.m */,
+				88E1AB6F20E0754300A94ECC /* Assets.xcassets */,
 				8806266720E09E7D00DB6E48 /* img */,
+				88E1AB7420E0754300A94ECC /* Info.plist */,
+				88E1AB7120E0754300A94ECC /* LaunchScreen.storyboard */,
+				88E1AB6C20E0754300A94ECC /* Main.storyboard */,
 				8806263620E09E6300DB6E48 /* MainVC */,
 				8806263A20E09E6300DB6E48 /* OtherVC */,
 				8806265320E09E6300DB6E48 /* ResultVC */,
-				88E1AB6620E0754300A94ECC /* AppDelegate.h */,
-				88E1AB6720E0754300A94ECC /* AppDelegate.m */,
+				88E1AB6320E0754300A94ECC /* Supporting Files */,
 				88E1AB6920E0754300A94ECC /* ViewController.h */,
 				88E1AB6A20E0754300A94ECC /* ViewController.m */,
-				88E1AB6C20E0754300A94ECC /* Main.storyboard */,
-				88E1AB6F20E0754300A94ECC /* Assets.xcassets */,
-				88E1AB7120E0754300A94ECC /* LaunchScreen.storyboard */,
-				88E1AB7420E0754300A94ECC /* Info.plist */,
-				88E1AB6320E0754300A94ECC /* Supporting Files */,
 			);
 			path = zly_yijing;
 			sourceTree = "<group>";
