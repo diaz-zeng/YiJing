@@ -15,7 +15,39 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cezibg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kib-YW-quB">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrv-lz-kHr">
+                    <rect key="frame" x="221" y="553" width="104" height="46"/>
+                    <animations/>
+                    <state key="normal" title="确定" backgroundImage="goback.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLZ-pX-NNR">
+                    <rect key="frame" x="50" y="553" width="104" height="46"/>
+                    <animations/>
+                    <state key="normal" title="返回" backgroundImage="goback.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fz4-2x-zmO">
+                    <rect key="frame" x="0.0" y="66" width="375" height="120"/>
+                    <animations/>
+                </scrollView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K7L-Gb-1cx">
+                    <rect key="frame" x="87" y="227" width="200" height="30"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXR-4d-f9m">
+                    <rect key="frame" x="135" y="275" width="104" height="46"/>
+                    <animations/>
+                    <state key="normal" title="梦到其他" backgroundImage="goback.png"/>
+                </button>
+                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6tU-Au-Ttb">
+                    <rect key="frame" x="0.0" y="329" width="375" height="216"/>
+                    <animations/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                </pickerView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yushibg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kib-YW-quB">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <animations/>
                 </imageView>
@@ -27,6 +59,7 @@
         </view>
     </objects>
     <resources>
-        <image name="cezibg.jpg" width="600" height="845"/>
+        <image name="goback.png" width="131" height="52"/>
+        <image name="yushibg.jpg" width="320" height="480"/>
     </resources>
 </document>
