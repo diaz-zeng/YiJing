@@ -15,8 +15,6 @@
 		8806265C20E09E6300DB6E48 /* HuiYouViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806264220E09E6300DB6E48 /* HuiYouViewController.xib */; };
 		8806265D20E09E6300DB6E48 /* JieMengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806264520E09E6300DB6E48 /* JieMengViewController.m */; };
 		8806265E20E09E6300DB6E48 /* JieMengViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806264620E09E6300DB6E48 /* JieMengViewController.xib */; };
-		8806265F20E09E6300DB6E48 /* QiuQianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806264920E09E6300DB6E48 /* QiuQianViewController.m */; };
-		8806266020E09E6300DB6E48 /* QiuQianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806264A20E09E6300DB6E48 /* QiuQianViewController.xib */; };
 		8806266120E09E6300DB6E48 /* YunShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806264D20E09E6300DB6E48 /* YunShiViewController.m */; };
 		8806266220E09E6300DB6E48 /* YunShiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806264E20E09E6300DB6E48 /* YunShiViewController.xib */; };
 		8806266320E09E6300DB6E48 /* ZhanGuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806265120E09E6300DB6E48 /* ZhanGuaViewController.m */; };
@@ -135,6 +133,8 @@
 		8806274520E09E9F00DB6E48 /* yunshi.png in Resources */ = {isa = PBXBuildFile; fileRef = 880626D520E09E9F00DB6E48 /* yunshi.png */; };
 		8806274620E09E9F00DB6E48 /* yushibg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 880626D620E09E9F00DB6E48 /* yushibg.jpg */; };
 		8806274720E09E9F00DB6E48 /* zi.png in Resources */ = {isa = PBXBuildFile; fileRef = 880626D720E09E9F00DB6E48 /* zi.png */; };
+		88B4841D20E0F26A00AB1A9B /* QiuQianViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B4841B20E0F26A00AB1A9B /* QiuQianViewController.m */; };
+		88B4841E20E0F26A00AB1A9B /* QiuQianViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B4841C20E0F26A00AB1A9B /* QiuQianViewController.xib */; };
 		88E1AB6520E0754300A94ECC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1AB6420E0754300A94ECC /* main.m */; };
 		88E1AB6820E0754300A94ECC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1AB6720E0754300A94ECC /* AppDelegate.m */; };
 		88E1AB6B20E0754300A94ECC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1AB6A20E0754300A94ECC /* ViewController.m */; };
@@ -175,9 +175,6 @@
 		8806264420E09E6300DB6E48 /* JieMengViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieMengViewController.h; sourceTree = "<group>"; };
 		8806264520E09E6300DB6E48 /* JieMengViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JieMengViewController.m; sourceTree = "<group>"; };
 		8806264620E09E6300DB6E48 /* JieMengViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JieMengViewController.xib; sourceTree = "<group>"; };
-		8806264820E09E6300DB6E48 /* QiuQianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiuQianViewController.h; sourceTree = "<group>"; };
-		8806264920E09E6300DB6E48 /* QiuQianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiuQianViewController.m; sourceTree = "<group>"; };
-		8806264A20E09E6300DB6E48 /* QiuQianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QiuQianViewController.xib; sourceTree = "<group>"; };
 		8806264C20E09E6300DB6E48 /* YunShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YunShiViewController.h; sourceTree = "<group>"; };
 		8806264D20E09E6300DB6E48 /* YunShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YunShiViewController.m; sourceTree = "<group>"; };
 		8806264E20E09E6300DB6E48 /* YunShiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YunShiViewController.xib; sourceTree = "<group>"; };
@@ -299,6 +296,9 @@
 		880626D520E09E9F00DB6E48 /* yunshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yunshi.png; sourceTree = "<group>"; };
 		880626D620E09E9F00DB6E48 /* yushibg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yushibg.jpg; sourceTree = "<group>"; };
 		880626D720E09E9F00DB6E48 /* zi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zi.png; sourceTree = "<group>"; };
+		88B4841A20E0F26A00AB1A9B /* QiuQianViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiuQianViewController.h; sourceTree = "<group>"; };
+		88B4841B20E0F26A00AB1A9B /* QiuQianViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiuQianViewController.m; sourceTree = "<group>"; };
+		88B4841C20E0F26A00AB1A9B /* QiuQianViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QiuQianViewController.xib; sourceTree = "<group>"; };
 		88E1AB6020E0754300A94ECC /* zly_yijing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zly_yijing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E1AB6420E0754300A94ECC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88E1AB6620E0754300A94ECC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -355,10 +355,10 @@
 		8806263A20E09E6300DB6E48 /* OtherVC */ = {
 			isa = PBXGroup;
 			children = (
+				88B4841920E0F26A00AB1A9B /* QiuQianVC */,
 				8806263B20E09E6300DB6E48 /* CeZiVC */,
 				8806263F20E09E6300DB6E48 /* HuiYouVC */,
 				8806264320E09E6300DB6E48 /* JieMengVC */,
-				8806264720E09E6300DB6E48 /* QiuQianVc */,
 				8806264B20E09E6300DB6E48 /* YunShiVC */,
 				8806264F20E09E6300DB6E48 /* ZhanGuaVC */,
 			);
@@ -393,16 +393,6 @@
 				8806264620E09E6300DB6E48 /* JieMengViewController.xib */,
 			);
 			path = JieMengVC;
-			sourceTree = "<group>";
-		};
-		8806264720E09E6300DB6E48 /* QiuQianVc */ = {
-			isa = PBXGroup;
-			children = (
-				8806264820E09E6300DB6E48 /* QiuQianViewController.h */,
-				8806264920E09E6300DB6E48 /* QiuQianViewController.m */,
-				8806264A20E09E6300DB6E48 /* QiuQianViewController.xib */,
-			);
-			path = QiuQianVc;
 			sourceTree = "<group>";
 		};
 		8806264B20E09E6300DB6E48 /* YunShiVC */ = {
@@ -552,6 +542,16 @@
 				880626D720E09E9F00DB6E48 /* zi.png */,
 			);
 			path = img;
+			sourceTree = "<group>";
+		};
+		88B4841920E0F26A00AB1A9B /* QiuQianVC */ = {
+			isa = PBXGroup;
+			children = (
+				88B4841A20E0F26A00AB1A9B /* QiuQianViewController.h */,
+				88B4841B20E0F26A00AB1A9B /* QiuQianViewController.m */,
+				88B4841C20E0F26A00AB1A9B /* QiuQianViewController.xib */,
+			);
+			path = QiuQianVC;
 			sourceTree = "<group>";
 		};
 		88E1AB5720E0754300A94ECC = {
@@ -734,6 +734,7 @@
 				8806272920E09E9F00DB6E48 /* ss0.png in Resources */,
 				880626F620E09E9F00DB6E48 /* input2.png in Resources */,
 				880626E620E09E9F00DB6E48 /* fo.png in Resources */,
+				88B4841E20E0F26A00AB1A9B /* QiuQianViewController.xib in Resources */,
 				8806270620E09E9F00DB6E48 /* n9.png in Resources */,
 				880626D820E09E9F00DB6E48 /* 123.png in Resources */,
 				8806270720E09E9F00DB6E48 /* nb0.png in Resources */,
@@ -747,7 +748,6 @@
 				8806270220E09E9F00DB6E48 /* n5.png in Resources */,
 				8806273B20E09E9F00DB6E48 /* sx6.png in Resources */,
 				8806266220E09E6300DB6E48 /* YunShiViewController.xib in Resources */,
-				8806266020E09E6300DB6E48 /* QiuQianViewController.xib in Resources */,
 				880626FC20E09E9F00DB6E48 /* myIcon.png in Resources */,
 				8806273F20E09E9F00DB6E48 /* sx10.png in Resources */,
 				8806274520E09E9F00DB6E48 /* yunshi.png in Resources */,
@@ -871,7 +871,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8806265D20E09E6300DB6E48 /* JieMengViewController.m in Sources */,
-				8806265F20E09E6300DB6E48 /* QiuQianViewController.m in Sources */,
 				88E1AB6B20E0754300A94ECC /* ViewController.m in Sources */,
 				8806266320E09E6300DB6E48 /* ZhanGuaViewController.m in Sources */,
 				8806266520E09E6300DB6E48 /* ResultViewController.m in Sources */,
@@ -881,6 +880,7 @@
 				8806265920E09E6300DB6E48 /* CeZiViewController.m in Sources */,
 				88E1AB6520E0754300A94ECC /* main.m in Sources */,
 				8806265720E09E6300DB6E48 /* MainViewController.m in Sources */,
+				88B4841D20E0F26A00AB1A9B /* QiuQianViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
